@@ -33,22 +33,48 @@ Write the detailed procedure here
 
 
 ## Program:
-/*
+```
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: SRI SAI PRIYA.S
+RegisterNumber: 212222240103
 
+HALF SUBTRACTOR:
+module halfsubtraction (a,b,diff,borrow);
+input a,b;
+output diff,borrow;
+assign diff = (a^b);
+assign borrow = ~a&b;
+endmodule
+
+FULL SUBTRACTOR:
+module fullsubtractor(a,b,bin,diff,borrow);
+input a,b,bin;
+output diff,borrow;
+assign diff= a^b^bin;
+assign borrow = (~a&b)|(~(a^b)&bin);
+endmodule
+
+
+```
 ## Output:
+
+![266494203-b86b0277-3edc-4602-a833-c0901e081111](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/b942d0bb-6b27-4a0e-9c6e-bd5df1b4bbc5)
+
+![266494270-f544fe5e-ffa8-45f9-8a91-83910029e28c](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/b561a472-64b9-4630-a747-11c1f49afb8b)
+
 
 ## Truthtable
 
+![266493828-9bb9002d-18bf-40a8-8a96-69bec35e4aa4](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/5d14b54f-2d7d-4731-9430-211e76cdd5e1)
+
+![266494120-a8382574-34b2-44ca-90e6-a4f88001ca39](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/cfd5548e-9bbc-49a5-b5ef-83bfe82a206d)
 
 
 ##  RTL realization
 
+![266493488-e914821a-7eb7-4db6-8ff0-a56ea0d98a51](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/222c6cf1-9824-4be7-839f-fc4e78ea20ae)
 
-## Timing diagram 
+![266494815-143429fa-6cab-4e54-90c0-c0fb6771f33e](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/78e63338-c0f4-4a82-b541-097fdfb4d527)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
