@@ -56,12 +56,11 @@ endmodule
 
 
 ```
-## Output:
+##  RTL realization
 
-![266494203-b86b0277-3edc-4602-a833-c0901e081111](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/b942d0bb-6b27-4a0e-9c6e-bd5df1b4bbc5)
+![266493488-e914821a-7eb7-4db6-8ff0-a56ea0d98a51](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/222c6cf1-9824-4be7-839f-fc4e78ea20ae)
 
-![266494270-f544fe5e-ffa8-45f9-8a91-83910029e28c](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/b561a472-64b9-4630-a747-11c1f49afb8b)
-
+![266494815-143429fa-6cab-4e54-90c0-c0fb6771f33e](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/78e63338-c0f4-4a82-b541-097fdfb4d527)
 
 ## Truthtable
 
@@ -69,12 +68,11 @@ endmodule
 
 ![266494120-a8382574-34b2-44ca-90e6-a4f88001ca39](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/cfd5548e-9bbc-49a5-b5ef-83bfe82a206d)
 
+## Output:
 
-##  RTL realization
+![266494203-b86b0277-3edc-4602-a833-c0901e081111](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/b942d0bb-6b27-4a0e-9c6e-bd5df1b4bbc5)
 
-![266493488-e914821a-7eb7-4db6-8ff0-a56ea0d98a51](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/222c6cf1-9824-4be7-839f-fc4e78ea20ae)
-
-![266494815-143429fa-6cab-4e54-90c0-c0fb6771f33e](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/78e63338-c0f4-4a82-b541-097fdfb4d527)
+![266494270-f544fe5e-ffa8-45f9-8a91-83910029e28c](https://github.com/SriSaiPriyaSenthilvel/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119475702/b561a472-64b9-4630-a747-11c1f49afb8b)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
